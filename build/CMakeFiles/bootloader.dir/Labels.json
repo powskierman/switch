@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

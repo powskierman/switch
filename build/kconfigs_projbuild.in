@@ -1,0 +1,8 @@
+source "/opt/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/opt/esp/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/opt/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/opt/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/opt/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/opt/esp/esp-rainmaker/examples/switch/main/Kconfig.projbuild"
+source "/opt/esp/esp-rainmaker/components/esp_rainmaker/Kconfig.projbuild"
+source "/opt/esp/esp-rainmaker/examples/common/app_wifi/Kconfig.projbuild"
