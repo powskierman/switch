@@ -578,8 +578,6 @@ _Python3_EXECUTABLE:INTERNAL=/Users/michel/.espressif/python_env/idf5.2_py3.9_en
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;7;32;;;abi3;/Users/michel/.pyenv/versions/3.9.7/lib/python3.9;/Users/michel/.pyenv/versions/3.9.7/lib/python3.9;/Users/michel/.espressif/python_env/idf5.2_py3.9_env/lib/python3.9/site-packages;/Users/michel/.espressif/python_env/idf5.2_py3.9_env/lib/python3.9/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=36fae6455bd1f21f90895887d3fb60e8
-//Interpreter reason failure
-_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

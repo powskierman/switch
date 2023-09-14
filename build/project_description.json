@@ -1000,7 +1000,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/app_driver.c", "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/app_main.c", "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/call_back.c" ],
+            "sources": [ "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/app_driver.c", "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/app_main.c", "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/call_back.c", "/Users/michel/.espressif/esp-rainmaker/examples/switch/main/event_handler.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
