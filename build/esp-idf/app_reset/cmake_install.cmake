@@ -1,4 +1,4 @@
-# Install script for directory: /opt/esp/esp-rainmaker/examples/common/app_reset
+# Install script for directory: /Users/michel/.espressif/esp-rainmaker/examples/common/app_reset
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

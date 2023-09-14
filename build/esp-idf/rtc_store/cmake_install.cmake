@@ -1,4 +1,4 @@
-# Install script for directory: /opt/esp/esp-rainmaker/components/esp-insights/components/rtc_store
+# Install script for directory: /Users/michel/.espressif/esp-rainmaker/components/esp-insights/components/rtc_store
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

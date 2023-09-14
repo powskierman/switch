@@ -1,4 +1,4 @@
-# Install script for directory: /opt/esp/esp-rainmaker/components/ws2812_led
+# Install script for directory: /Users/michel/.espressif/esp-rainmaker/components/ws2812_led
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

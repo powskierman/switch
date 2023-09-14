@@ -8,6 +8,7 @@
 #pragma once
 #include <stdint.h>
 #include <stdbool.h>
+#include "call_back.h"
 
 #define DEFAULT_POWER  true
 extern esp_rmaker_device_t *switch_device;

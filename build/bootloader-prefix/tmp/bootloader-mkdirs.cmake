@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/opt/esp/esp-idf/components/bootloader/subproject"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/tmp"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src"
-  "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/tmp"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src"
+  "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/opt/esp/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

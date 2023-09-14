@@ -1,4 +1,4 @@
-# Install script for directory: /opt/esp/esp-rainmaker/components/json_generator
+# Install script for directory: /Users/michel/.espressif/esp-rainmaker/components/json_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
