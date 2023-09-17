@@ -14,7 +14,6 @@
 #include <esp_log.h>
 #include <esp_event.h>
 #include <nvs_flash.h>
-
 #include <esp_rmaker_core.h>
 #include <esp_rmaker_standard_types.h>
 #include <esp_rmaker_standard_params.h>
@@ -32,6 +31,8 @@
 #include "app_priv.h"
 #include "call_back.h"
 #include "event_handler.h"
+#include "add_node.h"
+#include "add_device.h"
 
 
 static const char *TAG = "app_main";
@@ -66,49 +67,11 @@ void app_main()
     ESP_ERROR_CHECK(esp_event_handler_register(APP_WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL));
     ESP_ERROR_CHECK(esp_event_handler_register(RMAKER_OTA_EVENT, ESP_EVENT_ANY_ID, &event_handler, NULL));
 
-    /* Initialize the ESP RainMaker Agent.
-     * Note that this should be called after app_wifi_init() but before app_wifi_start()
-     * */
-    esp_rmaker_config_t rainmaker_cfg = {
-        .enable_time_sync = false,
-    };
-    esp_rmaker_node_t *node = esp_rmaker_node_init(&rainmaker_cfg, "ESP RainMaker Device", "Switch");
-    if (!node) {
-        ESP_LOGE(TAG, "Could not initialise node. Aborting!!!");
-        vTaskDelay(5000/portTICK_PERIOD_MS);
-        abort();
-    }
-
-    /* Create a Switch device.
-     * You can optionally use the helper API esp_rmaker_switch_device_create() to
-     * avoid writing code for adding the name and power parameters.
-     */
-    switch_device = esp_rmaker_device_create("Switch", ESP_RMAKER_DEVICE_SWITCH, NULL);
-
-    /* Add the write callback for the device. We aren't registering any read callback yet as
-     * it is for future use.
-     */
-    esp_rmaker_device_add_cb(switch_device, write_cb, NULL);
-
-    /* Add the standard name parameter (type: esp.param.name), which allows setting a persistent,
-     * user friendly custom name from the phone apps. All devices are recommended to have this
-     * parameter.
-     */
-    esp_rmaker_device_add_param(switch_device, esp_rmaker_name_param_create(ESP_RMAKER_DEF_NAME_PARAM, "Switch"));
-
-    /* Add the standard power parameter (type: esp.param.power), which adds a boolean param
-     * with a toggle switch ui-type.
-     */
-    esp_rmaker_param_t *power_param = esp_rmaker_power_param_create(ESP_RMAKER_DEF_POWER_NAME, DEFAULT_POWER);
-    esp_rmaker_device_add_param(switch_device, power_param);
-
-    /* Assign the power parameter as the primary, so that it can be controlled from the
-     * home screen of the phone apps.
-     */
-    esp_rmaker_device_assign_primary_param(switch_device, power_param);
-
-    /* Add this switch device to the node */
-    esp_rmaker_node_add_device(node, switch_device);
+    // esp_rmaker_config_t rainmaker_cfg = {
+    // .enable_time_sync = false,
+    // };
+    esp_rmaker_node_t *node = add_node();
+    esp_rmaker_device_t *switch_device = add_device(node);
 
     /* Enable OTA */
     esp_rmaker_ota_enable_default();

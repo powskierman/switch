@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/CMakeFiles/bootloader-complete.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/Users/michel/.espressif/esp-rainmaker/examples/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/Users/michel/Documents/esp/switch/build/CMakeFiles/bootloader
+/Users/michel/Documents/esp/switch/build/CMakeFiles/bootloader.rule
+/Users/michel/Documents/esp/switch/build/CMakeFiles/bootloader-complete.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/michel/Documents/esp/switch/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

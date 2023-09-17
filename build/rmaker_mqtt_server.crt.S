@@ -1,4 +1,4 @@
-/* * Data converted from /Users/michel/.espressif/esp-rainmaker/components/esp_rainmaker/server_certs/rmaker_mqtt_server.crt
+/* * Data converted from /opt/esp/esp-idf/tools/esp-rainmaker/components/esp_rainmaker/server_certs/rmaker_mqtt_server.crt
  * (null byte appended)
  */
 .data

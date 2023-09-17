@@ -1,4 +1,4 @@
-/* * Data converted from /Users/michel/.espressif/esp-rainmaker/examples/switch/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/michel/Documents/esp/switch/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
