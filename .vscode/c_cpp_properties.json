@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}",
+                "/users/michel/Library/Arduino15/packages/esp32/hardware/esp32/2.0.12/tools/sdk/esp32/include/**",
+                "/Users/michel/Documents/esp/Examples/common/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
